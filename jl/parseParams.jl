@@ -8,7 +8,7 @@ from_file, frequency, debug, excited buffered calcium
 """
 function parseParams()
   s = ArgParseSettings()
-  @add_arg_table s begin
+  @add_arg_table! s begin
     "--cell_radius"
       help = "Modelling the cell as a sphere, the radius of that sphere"
       arg_type = Float64

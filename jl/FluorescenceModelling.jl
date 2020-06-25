@@ -9,7 +9,6 @@ using CSV
 using DataFrames
 using JuliaUtils: getPowerSpectrum, sphereVolume, smoothen
 using PyPlot
-using Seaborn
 using StatsBase
 
 export getSupTitle,

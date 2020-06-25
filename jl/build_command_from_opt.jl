@@ -7,11 +7,11 @@ using DataFrames
 
 function parseParams()
   s = ArgParseSettings()
-  @add_arg_table s begin
+  @add_arg_table! s begin
     "--opt_file"
       help = "the name and path to the optimisation csv."
       arg_type = String
-      default = "/space/td16954/optimisation_csvs/new_opt_8_0_tc_0.1.csv"
+      default = "/home/thomas/optimisation_csvs/new_opt_8_0_tc_0.1.csv"
     "--opt_params"
       help = "The parameters affected by optimisation"
       arg_type = String
